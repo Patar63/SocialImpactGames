@@ -2,17 +2,24 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SpriteStats : MonoBehaviour
-{
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+[CreateAssetMenu(menuName = "Social Impact/Sprite Stats")]
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+public class SpriteStats : ScriptableObject
+{
+    [Header("General")]
+    public SpriteType _spriteType;
+    public float _maxHP;
+
+    [Header("Attack")]
+    public AttackType _defaultsword;
+    public float _timeBetweenSwings;
+    public Vector2 _hitboxOffset;
+
+    [Header("Movement")]
+    public MoveType _defaultMovement;
+    public float _speed;
+    public float _jumpIntensity;
+    public LayerMask _groundCheck;
+    public float _rayXOffset = 0.1f;
+    public float _rayYOffset = 0f;
 }
