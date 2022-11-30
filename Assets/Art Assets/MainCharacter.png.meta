@@ -1,0 +1,1697 @@
+fileFormatVersion: 2
+guid: fb248afab4b24f640b8d01bc69f816f6
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SocialImpactSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 371
+        width: 19
+        height: 29
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ae76a0f75235a347800a5eabbe5a622
+      internalID: -102052862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SocialImpactSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 371
+        width: 17
+        height: 30
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29563e7003379ab4f911a595b63a72ce
+      internalID: -846916286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SocialImpactSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 371
+        width: 20
+        height: 31
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26a0b93bf40e4ac4a84d1e81f062f6ec
+      internalID: 1081054832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SocialImpactSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 371
+        width: 20
+        height: 29
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 945d690cd7e3a894aa3ccf0e914ab8f3
+      internalID: -1210958077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SocialImpactSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 371
+        width: 20
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cf597eafbe27974e976f451cbc529de
+      internalID: 1610023888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SocialImpactSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 371
+        width: 21
+        height: 22
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95d608ee1b243404d9fa970450b199aa
+      internalID: -1246861600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SocialImpactSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 371
+        width: 20
+        height: 22
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eaba0e9d101a7d46bdabd26496e7126
+      internalID: -524185671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SocialImpactSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 334
+        width: 17
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ff767114746b3c499b6ffe6f62b18c0
+      internalID: -1565086963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SocialImpactSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 334
+        width: 20
+        height: 28
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 045e5ca550cb28a4c95f75da7940c395
+      internalID: -1292290578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SocialImpactSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 334
+        width: 21
+        height: 28
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65ed260f1abe63141a6239951fdcbca6
+      internalID: 806527835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SocialImpactSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 334
+        width: 20
+        height: 25
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf25d00e4eb832d439a9777d32e1ec96
+      internalID: 1418818940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SocialImpactSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 334
+        width: 23
+        height: 29
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5926d80ff51bdf4988c04409103f242
+      internalID: -392040897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SocialImpactSpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 334
+        width: 20
+        height: 28
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e96008f8adb896942a0898739d9b693f
+      internalID: -926774033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SocialImpactSpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 334
+        width: 20
+        height: 25
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d19a4a4a7ef200409f55b551f2c5bf6
+      internalID: -925898929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SocialImpactSpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 297
+        width: 20
+        height: 24
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e83ee4324a6305646890c337ea027ea2
+      internalID: 886800210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SocialImpactSpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 297
+        width: 20
+        height: 23
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d86926d0c58695499ecba969914b2df
+      internalID: 275696673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SocialImpactSpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 299
+        width: 20
+        height: 27
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa4a4e2d46e4d4e468816c682a021030
+      internalID: -1677468086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SocialImpactSpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 305
+        width: 21
+        height: 24
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5800f3b52cba1fa469b9c79d0bcb76fa
+      internalID: -1184325171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SocialImpactSpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 304
+        width: 17
+        height: 22
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01979bbbc11afe043b2db954cf9e59c3
+      internalID: 787959135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SocialImpactSpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 305
+        width: 24
+        height: 18
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83a3d0d906b47954c8ec2211a58dff05
+      internalID: -264236386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SocialImpactSpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 301
+        width: 19
+        height: 22
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b49faf69c8c175e40a2bf1bb913f6144
+      internalID: -291889534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SocialImpactSpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 265
+        width: 24
+        height: 18
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db9fee59614027943a64f89abe47f3cc
+      internalID: -1223696757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SocialImpactSpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 264
+        width: 17
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aea6e0c0af276904d9517c16e49dae11
+      internalID: -294937425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SocialImpactSpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 264
+        width: 17
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bdd27d19b997844781d3d46aab3a57a
+      internalID: -1271028541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SocialImpactSpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 259
+        width: 34
+        height: 15
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f60d45e04d6bb54f8b376cdd5cdd6c1
+      internalID: 1637064971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SocialImpactSpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 260
+        width: 34
+        height: 14
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 750f94f1872fb134789336ac89bf72bb
+      internalID: 1467070504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SocialImpactSpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 259
+        width: 34
+        height: 18
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82923394b30b4964bb8e2108f26e9db8
+      internalID: 2048382611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SocialImpactSpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 259
+        width: 30
+        height: 19
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 677852fd85f602b4688a9cdfeedba9c6
+      internalID: 2031540006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SocialImpactSpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 223
+        width: 23
+        height: 18
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 055c117e7df927248b528a26802d29e8
+      internalID: 476616527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SocialImpactSpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 222
+        width: 13
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 427d216c49ec1f9498be2eaa123db0e0
+      internalID: -331937644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SocialImpactSpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 222
+        width: 14
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41dde4fa996848f43886a80179145b02
+      internalID: 453042469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SocialImpactSpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 222
+        width: 15
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a06aa009b100f134888e8351e6c46a01
+      internalID: 876666759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SocialImpactSpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 222
+        width: 14
+        height: 34
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ac9e36ee4b55224ea873e3d0e6a515f
+      internalID: -1525311188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SocialImpactSpriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 224
+        width: 16
+        height: 29
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a433b038bdadd04e9d1b9b2b505989d
+      internalID: 665025461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SocialImpactSpriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 226
+        width: 15
+        height: 26
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cda48775cd4a7ea40a5093012d0c4e91
+      internalID: -366127742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SocialImpactSpriteSheet_35
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 190
+        width: 16
+        height: 24
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb4b152083f30cd45a5253f866b8dc60
+      internalID: 376949824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SocialImpactSpriteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 192
+        width: 15
+        height: 24
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 917ac4819db687f4aa88dd6ffc465c9b
+      internalID: -431443775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SocialImpactSpriteSheet_37
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 192
+        width: 15
+        height: 24
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04e002dda4768b24f90a1e8a7f971a6e
+      internalID: 1302529038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SocialImpactSpriteSheet_38
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 149
+        width: 32
+        height: 64
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c34b2ef6ea539a64183a976f5916f693
+      internalID: -671691670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SocialImpactSpriteSheet_39
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 186
+        width: 23
+        height: 27
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a197919d3de948044bd49024b11cebb2
+      internalID: 1214540286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SocialImpactSpriteSheet_40
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 186
+        width: 25
+        height: 28
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d901bfd15f9b14c4fb1a9484c6d34d5c
+      internalID: -1700879445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SocialImpactSpriteSheet_41
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 186
+        width: 26
+        height: 28
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3687467b95cb6884ab86a0b564d40b7a
+      internalID: -2071619958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SocialImpactSpriteSheet_42
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 149
+        width: 28
+        height: 22
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95602eafc15ec6d43ac6439afafe85ef
+      internalID: -366986623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SocialImpactSpriteSheet_43
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 149
+        width: 26
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 188e55f257f2ad14bb3cc6ede130c62f
+      internalID: -2109517351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SocialImpactSpriteSheet_44
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 149
+        width: 34
+        height: 36
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a119fac464ce2154b9aec133a59c76d8
+      internalID: 1374893513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SocialImpactSpriteSheet_45
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 149
+        width: 19
+        height: 32
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2563fcbb382f33b438348746396b86aa
+      internalID: -526312435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SocialImpactSpriteSheet_46
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 149
+        width: 18
+        height: 26
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c0751913c4e19646855e5b896f237e5
+      internalID: 473132431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SocialImpactSpriteSheet_47
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 149
+        width: 18
+        height: 27
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca286b4b70815ef4198836484281edff
+      internalID: 1819153330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SocialImpactSpriteSheet_48
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 112
+        width: 20
+        height: 27
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f7bc0810898bee40a5120b3f8992fb0
+      internalID: -1000914645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SocialImpactSpriteSheet_49
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 111
+        width: 37
+        height: 31
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20f3e02d93507bf428c678295e39839e
+      internalID: -2109977244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SocialImpactSpriteSheet_50
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 112
+        width: 32
+        height: 22
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9223421e97c2434aaf12c9e5ffb7a6b
+      internalID: -990579502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SocialImpactSpriteSheet_51
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 112
+        width: 32
+        height: 22
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f070dd02c6c787e4b8113692451d8c51
+      internalID: -1060367076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SocialImpactSpriteSheet_52
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 112
+        width: 20
+        height: 30
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54a152cdc3690434bb15e6a78f86d3a2
+      internalID: 370247746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SocialImpactSpriteSheet_53
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 112
+        width: 21
+        height: 29
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 385dc05b69b734840aa0cc3230e89937
+      internalID: -829128774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SocialImpactSpriteSheet_54
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 112
+        width: 48
+        height: 23
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce3c74443f26da242aea58b17795cfef
+      internalID: 2045428378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SocialImpactSpriteSheet_55
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 75
+        width: 31
+        height: 19
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d1cbc26207a7394398e7e4e10d798ee
+      internalID: 493140344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SocialImpactSpriteSheet_56
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 75
+        width: 34
+        height: 21
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae1989a682bff4f4698b408ee37e68af
+      internalID: -628701446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SocialImpactSpriteSheet_57
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 75
+        width: 34
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfe2dca999bc9334e980fe0a2c393d66
+      internalID: 1083246596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SocialImpactSpriteSheet_58
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 75
+        width: 21
+        height: 25
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 852583567fc1254478d8815eaadbf3b4
+      internalID: -1040960802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SocialImpactSpriteSheet_59
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 75
+        width: 19
+        height: 25
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e9ee1dfc0701354c8f8aa183e0b4aed
+      internalID: 1628569540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SocialImpactSpriteSheet_60
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 75
+        width: 19
+        height: 24
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aae794d21fb4edd45928d7b7646fe09a
+      internalID: 1630783228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SocialImpactSpriteSheet_61
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 75
+        width: 21
+        height: 24
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6e746788c7a78c488de340449e616aa
+      internalID: 2091579567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SocialImpactSpriteSheet_62
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 38
+        width: 19
+        height: 25
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ce3aaad1204363438c5a4b2e7a52808
+      internalID: -1615115288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SocialImpactSpriteSheet_63
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 38
+        width: 19
+        height: 24
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf841a4a23a325f4db05d3871e5fc3c7
+      internalID: 477199717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SocialImpactSpriteSheet_64
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 38
+        width: 20
+        height: 24
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3783cd825b6d3ff42967247d66bb0ce0
+      internalID: -2011494226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SocialImpactSpriteSheet_65
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 37
+        width: 18
+        height: 23
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a75a2764c7c5454468b21e6a4df5e6c6
+      internalID: -788001436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SocialImpactSpriteSheet_66
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 37
+        width: 15
+        height: 18
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a215ac9e5f5c894aa8e0e6757845555
+      internalID: 1460638266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SocialImpactSpriteSheet_67
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 37
+        width: 18
+        height: 19
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 228b94feafd13b342a21790876fb462a
+      internalID: -1411303651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SocialImpactSpriteSheet_68
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 38
+        width: 23
+        height: 29
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 678b00583063d8245bd2f5f708167837
+      internalID: 198162300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SocialImpactSpriteSheet_69
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1
+        width: 23
+        height: 29
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 046904a903d73f24f895d041b8b42cb6
+      internalID: 2131348024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SocialImpactSpriteSheet_70
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 1
+        width: 23
+        height: 29
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eaedfb33e6a1b245a12e79aa8eb6291
+      internalID: -2058718230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      SocialImpactSpriteSheet_28: 476616527
+      SocialImpactSpriteSheet_31: 876666759
+      SocialImpactSpriteSheet_1: -846916286
+      SocialImpactSpriteSheet_32: -1525311188
+      SocialImpactSpriteSheet_34: -366127742
+      SocialImpactSpriteSheet_45: -526312435
+      SocialImpactSpriteSheet_25: 1467070504
+      SocialImpactSpriteSheet_56: -628701446
+      SocialImpactSpriteSheet_68: 198162300
+      SocialImpactSpriteSheet_39: 1214540286
+      SocialImpactSpriteSheet_66: 1460638266
+      SocialImpactSpriteSheet_12: -926774033
+      SocialImpactSpriteSheet_69: 2131348024
+      SocialImpactSpriteSheet_21: -1223696757
+      SocialImpactSpriteSheet_61: 2091579567
+      SocialImpactSpriteSheet_48: -1000914645
+      SocialImpactSpriteSheet_8: -1292290578
+      SocialImpactSpriteSheet_14: 886800210
+      SocialImpactSpriteSheet_43: -2109517351
+      SocialImpactSpriteSheet_62: -1615115288
+      SocialImpactSpriteSheet_30: 453042469
+      SocialImpactSpriteSheet_44: 1374893513
+      SocialImpactSpriteSheet_52: 370247746
+      SocialImpactSpriteSheet_40: -1700879445
+      SocialImpactSpriteSheet_2: 1081054832
+      SocialImpactSpriteSheet_27: 2031540006
+      SocialImpactSpriteSheet_35: 376949824
+      SocialImpactSpriteSheet_42: -366986623
+      SocialImpactSpriteSheet_3: -1210958077
+      SocialImpactSpriteSheet_18: 787959135
+      SocialImpactSpriteSheet_46: 473132431
+      SocialImpactSpriteSheet_16: -1677468086
+      SocialImpactSpriteSheet_53: -829128774
+      SocialImpactSpriteSheet_60: 1630783228
+      SocialImpactSpriteSheet_33: 665025461
+      SocialImpactSpriteSheet_6: -524185671
+      SocialImpactSpriteSheet_23: -1271028541
+      SocialImpactSpriteSheet_38: -671691670
+      SocialImpactSpriteSheet_7: -1565086963
+      SocialImpactSpriteSheet_5: -1246861600
+      SocialImpactSpriteSheet_54: 2045428378
+      SocialImpactSpriteSheet_67: -1411303651
+      SocialImpactSpriteSheet_15: 275696673
+      SocialImpactSpriteSheet_36: -431443775
+      SocialImpactSpriteSheet_50: -990579502
+      SocialImpactSpriteSheet_65: -788001436
+      SocialImpactSpriteSheet_29: -331937644
+      SocialImpactSpriteSheet_0: -102052862
+      SocialImpactSpriteSheet_9: 806527835
+      SocialImpactSpriteSheet_17: -1184325171
+      SocialImpactSpriteSheet_49: -2109977244
+      SocialImpactSpriteSheet_64: -2011494226
+      SocialImpactSpriteSheet_37: 1302529038
+      SocialImpactSpriteSheet_22: -294937425
+      SocialImpactSpriteSheet_51: -1060367076
+      SocialImpactSpriteSheet_13: -925898929
+      SocialImpactSpriteSheet_55: 493140344
+      SocialImpactSpriteSheet_70: -2058718230
+      SocialImpactSpriteSheet_4: 1610023888
+      SocialImpactSpriteSheet_10: 1418818940
+      SocialImpactSpriteSheet_59: 1628569540
+      SocialImpactSpriteSheet_20: -291889534
+      SocialImpactSpriteSheet_24: 1637064971
+      SocialImpactSpriteSheet_41: -2071619958
+      SocialImpactSpriteSheet_57: 1083246596
+      SocialImpactSpriteSheet_47: 1819153330
+      SocialImpactSpriteSheet_63: 477199717
+      SocialImpactSpriteSheet_11: -392040897
+      SocialImpactSpriteSheet_58: -1040960802
+      SocialImpactSpriteSheet_26: 2048382611
+      SocialImpactSpriteSheet_19: -264236386
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
