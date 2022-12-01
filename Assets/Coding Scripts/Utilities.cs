@@ -19,6 +19,7 @@ public static class AnimationStates
     public static int direction = Animator.StringToHash("Direction");
     public static int onground = Animator.StringToHash("OnGround");
     public static int alive = Animator.StringToHash("Alive");
+    public static int attacking = Animator.StringToHash("Attacking");
 }
 
 //enums
