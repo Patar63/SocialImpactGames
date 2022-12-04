@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34598d5773aca384184a5c1e28253737, type: 3}
   m_Name: Player (Stats)
   m_EditorClassIdentifier: 
-  _spriteType: 0
+  _spriteType: 1
   _maxHP: 10
   _defaultsword: 0
   _timeBetweenSwings: 0

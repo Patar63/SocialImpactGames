@@ -208,7 +208,7 @@ MonoBehaviour:
   _currentMoveType: 0
   onGround: 0
   isAttacking: 0
-  alive: 0
+  alive: 1
   _attackTimer: 0
   _movement: {x: 0, y: 0}
   _spriteSize: {x: 0, y: 0}
