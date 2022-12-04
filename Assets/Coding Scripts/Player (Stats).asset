@@ -13,15 +13,15 @@ MonoBehaviour:
   m_Name: Player (Stats)
   m_EditorClassIdentifier: 
   _spriteType: 0
-  _maxHP: 0
+  _maxHP: 10
   _defaultsword: 0
   _timeBetweenSwings: 0
   _hitboxOffset: {x: 0, y: 0}
   _defaultMovement: 0
-  _speed: 0
-  _jumpIntensity: 0
+  _speed: 5
+  _jumpIntensity: 10
   _groundCheck:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 512
   _rayXOffset: 0.1
   _rayYOffset: 0
