@@ -44,7 +44,7 @@ public partial class @PlayerController : IInputActionCollection2, IDisposable
                     ""interactions"": """"
                 },
                 {
-                    ""name"": ""Shoot"",
+                    ""name"": ""Attack"",
                     ""type"": ""Button"",
                     ""id"": ""0eb5e955-1433-42ab-951a-9326aa499449"",
                     ""expectedControlType"": ""Button"",
@@ -71,7 +71,7 @@ public partial class @PlayerController : IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Shoot"",
+                    ""action"": ""Attack"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
