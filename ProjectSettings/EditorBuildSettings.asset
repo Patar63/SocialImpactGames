@@ -5,7 +5,16 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Game Level.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Prologue.unity
+    guid: 7a8ef75807fa2c146ba8ee93afa297fb
+  - enabled: 1
+    path: Assets/Scenes/Game Level - Copy.unity
+    guid: 61bc41fa0ecb6114bbe74cdcd9318fd8
+  - enabled: 1
+    path: Assets/Scenes/Epilogue.unity
+    guid: 05c010bbf65ab434881ffc00e13c8bef
   m_configObjects: {}
