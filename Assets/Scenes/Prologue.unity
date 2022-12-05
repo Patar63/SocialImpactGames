@@ -753,8 +753,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.7795, y: 1.9619}
-  m_SizeDelta: {x: 405.4451, y: 241.7666}
+  m_AnchoredPosition: {x: 4.7795, y: -3.4855}
+  m_SizeDelta: {x: 405.4451, y: 230.8719}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2076260119
 MonoBehaviour:
@@ -776,7 +776,15 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: Charlie breathed a sigh of relief. It had been a long day, and they'd finally
+    gotten home after a particularly long day at work. Just getting through each
+    day recently had started to feel like a struggle. It had been a few months since
+    they had come out and while most people had been supportive, every now and then
+    they couldn't help but feel like all eyes were on them, expecting them to act
+    and behave in a specific way. Even the smallest of things made Charlie think
+    people were judging them, even knowing that most people who looked at them probably
+    didn't even realize they were trans. But despite knowing that, it still felt
+    like an obstacle course every day just to make it through to the end...
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ea44de3c7213dd0498efbd2c43eb922f, type: 2}
   m_sharedMaterial: {fileID: 3152378354031670612, guid: ea44de3c7213dd0498efbd2c43eb922f, type: 2}
@@ -803,8 +811,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 16
+  m_fontSizeBase: 16
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -839,7 +847,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 3.4404297, y: 0, z: 6.8808594, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
