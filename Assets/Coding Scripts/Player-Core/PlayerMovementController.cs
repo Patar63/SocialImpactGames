@@ -31,6 +31,11 @@ public class PlayerMovementController : MonoBehaviour
 
     private void Awake()
     {
+        
+    }
+
+    private void Start()
+    {
         inputActions = PlayerInputController.instance.inputAction;
         _animator = GetComponent<Animator>();
         _rigidbody = GetComponent<Rigidbody2D>();
