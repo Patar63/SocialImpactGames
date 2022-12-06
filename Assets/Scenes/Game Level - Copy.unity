@@ -271,6 +271,7 @@ GameObject:
   - component: {fileID: 25519139}
   - component: {fileID: 25519141}
   - component: {fileID: 25519140}
+  - component: {fileID: 25519142}
   m_Layer: 0
   m_Name: Triangle (36)
   m_TagString: Untagged
@@ -286,7 +287,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 25519138}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 115.63999, y: -5.22, z: 10.012117}
+  m_LocalPosition: {x: 115.63999, y: -5.22, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -303,7 +304,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -378,6 +379,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &25519142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 25519138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfba9a7e9b3e1524d9ee1b5359fb02a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &48684665
 GameObject:
   m_ObjectHideFlags: 0
@@ -389,6 +402,7 @@ GameObject:
   - component: {fileID: 48684666}
   - component: {fileID: 48684668}
   - component: {fileID: 48684667}
+  - component: {fileID: 48684669}
   m_Layer: 0
   m_Name: Triangle (37)
   m_TagString: Untagged
@@ -404,7 +418,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 48684665}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 116.829994, y: -5.22, z: 10.012117}
+  m_LocalPosition: {x: 116.829994, y: -5.22, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -421,7 +435,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -496,6 +510,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &48684669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 48684665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfba9a7e9b3e1524d9ee1b5359fb02a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &55251864
 GameObject:
   m_ObjectHideFlags: 0
@@ -507,6 +533,7 @@ GameObject:
   - component: {fileID: 55251865}
   - component: {fileID: 55251867}
   - component: {fileID: 55251866}
+  - component: {fileID: 55251868}
   m_Layer: 0
   m_Name: Triangle (47)
   m_TagString: Untagged
@@ -522,7 +549,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 55251864}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 128.68, y: -5.22, z: 10.012117}
+  m_LocalPosition: {x: 128.68, y: -5.22, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -539,7 +566,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -614,6 +641,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &55251868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 55251864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfba9a7e9b3e1524d9ee1b5359fb02a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &69895414
 GameObject:
   m_ObjectHideFlags: 0
@@ -736,6 +775,7 @@ GameObject:
   - component: {fileID: 108544212}
   - component: {fileID: 108544214}
   - component: {fileID: 108544213}
+  - component: {fileID: 108544215}
   m_Layer: 0
   m_Name: Triangle (66)
   m_TagString: Untagged
@@ -751,7 +791,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 108544211}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 163.6, y: 3.54, z: 10.012117}
+  m_LocalPosition: {x: 163.6, y: 3.54, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -768,7 +808,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -843,6 +883,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &108544215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 108544211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfba9a7e9b3e1524d9ee1b5359fb02a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &114985410
 GameObject:
   m_ObjectHideFlags: 0
@@ -854,6 +906,7 @@ GameObject:
   - component: {fileID: 114985411}
   - component: {fileID: 114985413}
   - component: {fileID: 114985412}
+  - component: {fileID: 114985414}
   m_Layer: 0
   m_Name: Triangle (10)
   m_TagString: Untagged
@@ -869,7 +922,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 114985410}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 85.16, y: -5.22, z: 10.012117}
+  m_LocalPosition: {x: 85.16, y: -5.22, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -886,7 +939,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -961,6 +1014,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &114985414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 114985410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfba9a7e9b3e1524d9ee1b5359fb02a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &116322495
 GameObject:
   m_ObjectHideFlags: 0
@@ -972,6 +1037,7 @@ GameObject:
   - component: {fileID: 116322496}
   - component: {fileID: 116322498}
   - component: {fileID: 116322497}
+  - component: {fileID: 116322499}
   m_Layer: 0
   m_Name: Triangle (19)
   m_TagString: Untagged
@@ -987,7 +1053,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 116322495}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 95.77, y: -5.22, z: 10.012117}
+  m_LocalPosition: {x: 95.77, y: -5.22, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1004,7 +1070,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -1079,6 +1145,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &116322499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 116322495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfba9a7e9b3e1524d9ee1b5359fb02a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &124144670
 GameObject:
   m_ObjectHideFlags: 0
@@ -1090,6 +1168,7 @@ GameObject:
   - component: {fileID: 124144671}
   - component: {fileID: 124144673}
   - component: {fileID: 124144672}
+  - component: {fileID: 124144674}
   m_Layer: 0
   m_Name: Triangle (8)
   m_TagString: Untagged
@@ -1105,7 +1184,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 124144670}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 53.79, y: 3.6699996, z: 10.012117}
+  m_LocalPosition: {x: 53.79, y: 3.6699996, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1122,7 +1201,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -1197,6 +1276,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &124144674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 124144670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfba9a7e9b3e1524d9ee1b5359fb02a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &125360065
 GameObject:
   m_ObjectHideFlags: 0
@@ -1208,6 +1299,7 @@ GameObject:
   - component: {fileID: 125360066}
   - component: {fileID: 125360068}
   - component: {fileID: 125360067}
+  - component: {fileID: 125360069}
   m_Layer: 0
   m_Name: Triangle (38)
   m_TagString: Untagged
@@ -1223,7 +1315,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 125360065}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 118.02999, y: -5.22, z: 10.012117}
+  m_LocalPosition: {x: 118.02999, y: -5.22, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1240,7 +1332,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -1315,6 +1407,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &125360069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 125360065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfba9a7e9b3e1524d9ee1b5359fb02a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &150982821
 GameObject:
   m_ObjectHideFlags: 0
@@ -1326,6 +1430,7 @@ GameObject:
   - component: {fileID: 150982822}
   - component: {fileID: 150982824}
   - component: {fileID: 150982823}
+  - component: {fileID: 150982825}
   m_Layer: 0
   m_Name: Triangle (32)
   m_TagString: Untagged
@@ -1341,7 +1446,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 150982821}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 110.95, y: -5.22, z: 10.012117}
+  m_LocalPosition: {x: 110.95, y: -5.22, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1358,7 +1463,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -1433,6 +1538,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &150982825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 150982821}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfba9a7e9b3e1524d9ee1b5359fb02a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &154073406
 GameObject:
   m_ObjectHideFlags: 0
@@ -1444,6 +1561,7 @@ GameObject:
   - component: {fileID: 154073407}
   - component: {fileID: 154073409}
   - component: {fileID: 154073408}
+  - component: {fileID: 154073410}
   m_Layer: 0
   m_Name: Triangle (62)
   m_TagString: Untagged
@@ -1459,7 +1577,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 154073406}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 143.8, y: -5.22, z: 10.012117}
+  m_LocalPosition: {x: 143.8, y: -5.22, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1476,7 +1594,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -1551,6 +1669,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &154073410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 154073406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfba9a7e9b3e1524d9ee1b5359fb02a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &250102261
 GameObject:
   m_ObjectHideFlags: 0
@@ -1562,6 +1692,7 @@ GameObject:
   - component: {fileID: 250102262}
   - component: {fileID: 250102264}
   - component: {fileID: 250102263}
+  - component: {fileID: 250102265}
   m_Layer: 0
   m_Name: Triangle (14)
   m_TagString: Untagged
@@ -1577,7 +1708,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 250102261}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 89.89, y: -5.22, z: 10.012117}
+  m_LocalPosition: {x: 89.89, y: -5.22, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1594,7 +1725,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -1669,6 +1800,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &250102265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 250102261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfba9a7e9b3e1524d9ee1b5359fb02a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &309040246
 GameObject:
   m_ObjectHideFlags: 0
@@ -1680,6 +1823,7 @@ GameObject:
   - component: {fileID: 309040247}
   - component: {fileID: 309040249}
   - component: {fileID: 309040248}
+  - component: {fileID: 309040250}
   m_Layer: 0
   m_Name: Triangle
   m_TagString: Untagged
@@ -1695,7 +1839,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 309040246}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 15.30999, y: -0.7689996, z: 10.012117}
+  m_LocalPosition: {x: 15.30999, y: -0.7689996, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1712,7 +1856,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -1787,6 +1931,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &309040250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 309040246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfba9a7e9b3e1524d9ee1b5359fb02a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &313858568
 GameObject:
   m_ObjectHideFlags: 0
@@ -1803,7 +1959,7 @@ GameObject:
   - component: {fileID: 313858574}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1965,6 +2121,7 @@ GameObject:
   - component: {fileID: 324450700}
   - component: {fileID: 324450702}
   - component: {fileID: 324450701}
+  - component: {fileID: 324450703}
   m_Layer: 0
   m_Name: Triangle (25)
   m_TagString: Untagged
@@ -1980,7 +2137,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 324450699}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 102.83999, y: -5.22, z: 10.012117}
+  m_LocalPosition: {x: 102.83999, y: -5.22, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1997,7 +2154,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -2072,6 +2229,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &324450703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 324450699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfba9a7e9b3e1524d9ee1b5359fb02a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &325309075
 GameObject:
   m_ObjectHideFlags: 0
@@ -2083,6 +2252,7 @@ GameObject:
   - component: {fileID: 325309076}
   - component: {fileID: 325309078}
   - component: {fileID: 325309077}
+  - component: {fileID: 325309079}
   m_Layer: 0
   m_Name: Triangle (6)
   m_TagString: Untagged
@@ -2098,7 +2268,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 325309075}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 34.550003, y: -0.7689996, z: 10.012117}
+  m_LocalPosition: {x: 34.550003, y: -0.7689996, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2115,7 +2285,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -2190,6 +2360,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &325309079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 325309075}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfba9a7e9b3e1524d9ee1b5359fb02a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &351520807
 GameObject:
   m_ObjectHideFlags: 0
@@ -2201,6 +2383,7 @@ GameObject:
   - component: {fileID: 351520808}
   - component: {fileID: 351520810}
   - component: {fileID: 351520809}
+  - component: {fileID: 351520811}
   m_Layer: 0
   m_Name: Triangle (59)
   m_TagString: Untagged
@@ -2216,7 +2399,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 351520807}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 140.4, y: -5.22, z: 10.012117}
+  m_LocalPosition: {x: 140.4, y: -5.22, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2233,7 +2416,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -2308,6 +2491,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &351520811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 351520807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfba9a7e9b3e1524d9ee1b5359fb02a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &374342936
 GameObject:
   m_ObjectHideFlags: 0
@@ -2319,6 +2514,7 @@ GameObject:
   - component: {fileID: 374342937}
   - component: {fileID: 374342939}
   - component: {fileID: 374342938}
+  - component: {fileID: 374342940}
   m_Layer: 0
   m_Name: Triangle (34)
   m_TagString: Untagged
@@ -2334,7 +2530,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 374342936}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 113.299995, y: -5.22, z: 10.012117}
+  m_LocalPosition: {x: 113.299995, y: -5.22, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2351,7 +2547,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -2426,6 +2622,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &374342940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 374342936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfba9a7e9b3e1524d9ee1b5359fb02a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &423434653
 GameObject:
   m_ObjectHideFlags: 0
@@ -2619,6 +2827,7 @@ GameObject:
   - component: {fileID: 469545645}
   - component: {fileID: 469545647}
   - component: {fileID: 469545646}
+  - component: {fileID: 469545648}
   m_Layer: 0
   m_Name: Triangle (9)
   m_TagString: Untagged
@@ -2634,7 +2843,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 469545644}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 54.979996, y: 3.6699996, z: 10.012117}
+  m_LocalPosition: {x: 54.979996, y: 3.6699996, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2651,7 +2860,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -2726,6 +2935,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &469545648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 469545644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfba9a7e9b3e1524d9ee1b5359fb02a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &503325526
 GameObject:
   m_ObjectHideFlags: 0
@@ -2737,6 +2958,7 @@ GameObject:
   - component: {fileID: 503325527}
   - component: {fileID: 503325529}
   - component: {fileID: 503325528}
+  - component: {fileID: 503325530}
   m_Layer: 0
   m_Name: Triangle (21)
   m_TagString: Untagged
@@ -2752,7 +2974,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 503325526}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 98.10999, y: -5.22, z: 10.012117}
+  m_LocalPosition: {x: 98.10999, y: -5.22, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2769,7 +2991,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -2844,6 +3066,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &503325530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 503325526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfba9a7e9b3e1524d9ee1b5359fb02a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &552670016
 GameObject:
   m_ObjectHideFlags: 0
@@ -2855,6 +3089,7 @@ GameObject:
   - component: {fileID: 552670017}
   - component: {fileID: 552670019}
   - component: {fileID: 552670018}
+  - component: {fileID: 552670020}
   m_Layer: 0
   m_Name: Triangle (67)
   m_TagString: Untagged
@@ -2870,7 +3105,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 552670016}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 164.79001, y: 3.54, z: 10.012117}
+  m_LocalPosition: {x: 164.79001, y: 3.54, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2887,7 +3122,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -2962,6 +3197,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &552670020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 552670016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfba9a7e9b3e1524d9ee1b5359fb02a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &577832125
 GameObject:
   m_ObjectHideFlags: 0
@@ -2973,6 +3220,7 @@ GameObject:
   - component: {fileID: 577832126}
   - component: {fileID: 577832128}
   - component: {fileID: 577832127}
+  - component: {fileID: 577832129}
   m_Layer: 0
   m_Name: Triangle (33)
   m_TagString: Untagged
@@ -2988,7 +3236,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 577832125}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 112.14, y: -5.22, z: 10.012117}
+  m_LocalPosition: {x: 112.14, y: -5.22, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3005,7 +3253,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -3080,6 +3328,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &577832129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 577832125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfba9a7e9b3e1524d9ee1b5359fb02a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &578815253
 GameObject:
   m_ObjectHideFlags: 0
@@ -3104,7 +3364,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 578815253}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3190,6 +3450,7 @@ GameObject:
   - component: {fileID: 636416526}
   - component: {fileID: 636416528}
   - component: {fileID: 636416527}
+  - component: {fileID: 636416529}
   m_Layer: 0
   m_Name: Triangle (46)
   m_TagString: Untagged
@@ -3205,7 +3466,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 636416525}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 127.49, y: -5.22, z: 10.012117}
+  m_LocalPosition: {x: 127.49, y: -5.22, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3222,7 +3483,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -3297,6 +3558,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &636416529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 636416525}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfba9a7e9b3e1524d9ee1b5359fb02a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &665095137
 GameObject:
   m_ObjectHideFlags: 0
@@ -3308,6 +3581,7 @@ GameObject:
   - component: {fileID: 665095138}
   - component: {fileID: 665095140}
   - component: {fileID: 665095139}
+  - component: {fileID: 665095141}
   m_Layer: 0
   m_Name: Triangle (61)
   m_TagString: Untagged
@@ -3323,7 +3597,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 665095137}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 142.65001, y: -5.22, z: 10.012117}
+  m_LocalPosition: {x: 142.65001, y: -5.22, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3340,7 +3614,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -3415,6 +3689,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &665095141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 665095137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfba9a7e9b3e1524d9ee1b5359fb02a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &676931055
 GameObject:
   m_ObjectHideFlags: 3
@@ -3514,6 +3800,7 @@ GameObject:
   - component: {fileID: 702235627}
   - component: {fileID: 702235629}
   - component: {fileID: 702235628}
+  - component: {fileID: 702235630}
   m_Layer: 0
   m_Name: Triangle (52)
   m_TagString: Untagged
@@ -3529,7 +3816,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 702235626}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 132.14, y: -5.22, z: 10.012117}
+  m_LocalPosition: {x: 132.14, y: -5.22, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3546,7 +3833,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -3621,6 +3908,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &702235630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 702235626}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfba9a7e9b3e1524d9ee1b5359fb02a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &708844029
 GameObject:
   m_ObjectHideFlags: 0
@@ -3632,6 +3931,7 @@ GameObject:
   - component: {fileID: 708844030}
   - component: {fileID: 708844032}
   - component: {fileID: 708844031}
+  - component: {fileID: 708844033}
   m_Layer: 0
   m_Name: Triangle (16)
   m_TagString: Untagged
@@ -3647,7 +3947,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 708844029}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 92.229996, y: -5.22, z: 10.012117}
+  m_LocalPosition: {x: 92.229996, y: -5.22, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3664,7 +3964,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -3739,6 +4039,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &708844033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 708844029}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfba9a7e9b3e1524d9ee1b5359fb02a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &732998376
 GameObject:
   m_ObjectHideFlags: 0
@@ -3861,6 +4173,7 @@ GameObject:
   - component: {fileID: 755767905}
   - component: {fileID: 755767907}
   - component: {fileID: 755767906}
+  - component: {fileID: 755767908}
   m_Layer: 0
   m_Name: Triangle (49)
   m_TagString: Untagged
@@ -3876,7 +4189,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 755767904}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 131.01999, y: -5.22, z: 10.012117}
+  m_LocalPosition: {x: 131.01999, y: -5.22, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3893,7 +4206,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -3968,6 +4281,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &755767908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 755767904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfba9a7e9b3e1524d9ee1b5359fb02a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &762071360
 GameObject:
   m_ObjectHideFlags: 0
@@ -3979,6 +4304,7 @@ GameObject:
   - component: {fileID: 762071361}
   - component: {fileID: 762071363}
   - component: {fileID: 762071362}
+  - component: {fileID: 762071364}
   m_Layer: 0
   m_Name: Triangle (28)
   m_TagString: Untagged
@@ -3994,7 +4320,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 762071360}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 106.22, y: -5.22, z: 10.012117}
+  m_LocalPosition: {x: 106.22, y: -5.22, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4011,7 +4337,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -4086,6 +4412,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &762071364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 762071360}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfba9a7e9b3e1524d9ee1b5359fb02a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &762663648
 GameObject:
   m_ObjectHideFlags: 0
@@ -4319,6 +4657,7 @@ GameObject:
   - component: {fileID: 838929896}
   - component: {fileID: 838929898}
   - component: {fileID: 838929897}
+  - component: {fileID: 838929899}
   m_Layer: 0
   m_Name: Triangle (23)
   m_TagString: Untagged
@@ -4334,7 +4673,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 838929895}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 100.49999, y: -5.22, z: 10.012117}
+  m_LocalPosition: {x: 100.49999, y: -5.22, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4351,7 +4690,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -4426,6 +4765,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &838929899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 838929895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfba9a7e9b3e1524d9ee1b5359fb02a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &854995677
 GameObject:
   m_ObjectHideFlags: 0
@@ -4437,6 +4788,7 @@ GameObject:
   - component: {fileID: 854995678}
   - component: {fileID: 854995680}
   - component: {fileID: 854995679}
+  - component: {fileID: 854995681}
   m_Layer: 0
   m_Name: Triangle (40)
   m_TagString: Untagged
@@ -4452,7 +4804,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 854995677}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 120.36999, y: -5.22, z: 10.012117}
+  m_LocalPosition: {x: 120.36999, y: -5.22, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4469,7 +4821,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -4544,6 +4896,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &854995681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 854995677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfba9a7e9b3e1524d9ee1b5359fb02a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &864703934
 GameObject:
   m_ObjectHideFlags: 0
@@ -4555,6 +4919,7 @@ GameObject:
   - component: {fileID: 864703935}
   - component: {fileID: 864703937}
   - component: {fileID: 864703936}
+  - component: {fileID: 864703938}
   m_Layer: 0
   m_Name: Triangle (43)
   m_TagString: Untagged
@@ -4570,7 +4935,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 864703934}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 123.950005, y: -5.22, z: 10.012117}
+  m_LocalPosition: {x: 123.950005, y: -5.22, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4587,7 +4952,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -4662,6 +5027,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &864703938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 864703934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfba9a7e9b3e1524d9ee1b5359fb02a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &926083806
 GameObject:
   m_ObjectHideFlags: 0
@@ -4673,6 +5050,7 @@ GameObject:
   - component: {fileID: 926083807}
   - component: {fileID: 926083809}
   - component: {fileID: 926083808}
+  - component: {fileID: 926083810}
   m_Layer: 0
   m_Name: Triangle (3)
   m_TagString: Untagged
@@ -4688,7 +5066,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 926083806}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 21.779999, y: -5.22, z: 10.012117}
+  m_LocalPosition: {x: 21.779999, y: -5.22, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4705,7 +5083,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -4780,6 +5158,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &926083810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 926083806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfba9a7e9b3e1524d9ee1b5359fb02a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &943476539
 GameObject:
   m_ObjectHideFlags: 0
@@ -4791,6 +5181,7 @@ GameObject:
   - component: {fileID: 943476540}
   - component: {fileID: 943476542}
   - component: {fileID: 943476541}
+  - component: {fileID: 943476543}
   m_Layer: 0
   m_Name: Triangle (22)
   m_TagString: Untagged
@@ -4806,7 +5197,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 943476539}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 99.30999, y: -5.22, z: 10.012117}
+  m_LocalPosition: {x: 99.30999, y: -5.22, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4823,7 +5214,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -4898,6 +5289,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &943476543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 943476539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfba9a7e9b3e1524d9ee1b5359fb02a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &977818081
 GameObject:
   m_ObjectHideFlags: 0
@@ -4909,6 +5312,7 @@ GameObject:
   - component: {fileID: 977818082}
   - component: {fileID: 977818084}
   - component: {fileID: 977818083}
+  - component: {fileID: 977818085}
   m_Layer: 0
   m_Name: Triangle (2)
   m_TagString: Untagged
@@ -4924,7 +5328,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 977818081}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 20.589996, y: -5.22, z: 10.012117}
+  m_LocalPosition: {x: 20.589996, y: -5.22, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4941,7 +5345,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -5016,6 +5420,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &977818085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 977818081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfba9a7e9b3e1524d9ee1b5359fb02a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1010478314
 GameObject:
   m_ObjectHideFlags: 0
@@ -5027,6 +5443,7 @@ GameObject:
   - component: {fileID: 1010478315}
   - component: {fileID: 1010478317}
   - component: {fileID: 1010478316}
+  - component: {fileID: 1010478318}
   m_Layer: 0
   m_Name: Triangle (20)
   m_TagString: Untagged
@@ -5042,7 +5459,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1010478314}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 96.91999, y: -5.22, z: 10.012117}
+  m_LocalPosition: {x: 96.91999, y: -5.22, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5059,7 +5476,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -5134,6 +5551,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1010478318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1010478314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfba9a7e9b3e1524d9ee1b5359fb02a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1012267823
 GameObject:
   m_ObjectHideFlags: 0
@@ -5145,6 +5574,7 @@ GameObject:
   - component: {fileID: 1012267824}
   - component: {fileID: 1012267826}
   - component: {fileID: 1012267825}
+  - component: {fileID: 1012267827}
   m_Layer: 0
   m_Name: Triangle (53)
   m_TagString: Untagged
@@ -5160,7 +5590,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1012267823}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 133.33, y: -5.22, z: 10.012117}
+  m_LocalPosition: {x: 133.33, y: -5.22, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5177,7 +5607,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -5252,6 +5682,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1012267827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1012267823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfba9a7e9b3e1524d9ee1b5359fb02a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1049825822
 GameObject:
   m_ObjectHideFlags: 0
@@ -5263,6 +5705,7 @@ GameObject:
   - component: {fileID: 1049825823}
   - component: {fileID: 1049825825}
   - component: {fileID: 1049825824}
+  - component: {fileID: 1049825826}
   m_Layer: 0
   m_Name: Triangle (50)
   m_TagString: Untagged
@@ -5278,7 +5721,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1049825822}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 110.95, y: 3.93, z: 10.012117}
+  m_LocalPosition: {x: 110.95, y: 3.93, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5295,7 +5738,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -5370,6 +5813,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1049825826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1049825822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfba9a7e9b3e1524d9ee1b5359fb02a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1092999148
 GameObject:
   m_ObjectHideFlags: 0
@@ -5381,6 +5836,7 @@ GameObject:
   - component: {fileID: 1092999149}
   - component: {fileID: 1092999151}
   - component: {fileID: 1092999150}
+  - component: {fileID: 1092999152}
   m_Layer: 0
   m_Name: Triangle (7)
   m_TagString: Untagged
@@ -5396,7 +5852,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1092999148}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 35.740005, y: -0.7689996, z: 10.012117}
+  m_LocalPosition: {x: 35.740005, y: -0.7689996, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5413,7 +5869,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -5488,6 +5944,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1092999152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1092999148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfba9a7e9b3e1524d9ee1b5359fb02a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1121700790
 GameObject:
   m_ObjectHideFlags: 0
@@ -5499,6 +5967,7 @@ GameObject:
   - component: {fileID: 1121700791}
   - component: {fileID: 1121700793}
   - component: {fileID: 1121700792}
+  - component: {fileID: 1121700794}
   m_Layer: 0
   m_Name: Triangle (12)
   m_TagString: Untagged
@@ -5514,7 +5983,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1121700790}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 87.5, y: -5.22, z: 10.012117}
+  m_LocalPosition: {x: 87.5, y: -5.22, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5531,7 +6000,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -5606,6 +6075,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1121700794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1121700790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfba9a7e9b3e1524d9ee1b5359fb02a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1140105365
 GameObject:
   m_ObjectHideFlags: 0
@@ -5617,6 +6098,7 @@ GameObject:
   - component: {fileID: 1140105366}
   - component: {fileID: 1140105368}
   - component: {fileID: 1140105367}
+  - component: {fileID: 1140105369}
   m_Layer: 0
   m_Name: Triangle (17)
   m_TagString: Untagged
@@ -5632,7 +6114,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1140105365}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 93.42, y: -5.22, z: 10.012117}
+  m_LocalPosition: {x: 93.42, y: -5.22, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5649,7 +6131,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -5724,6 +6206,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1140105369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1140105365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfba9a7e9b3e1524d9ee1b5359fb02a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1194436017
 GameObject:
   m_ObjectHideFlags: 0
@@ -5735,6 +6229,7 @@ GameObject:
   - component: {fileID: 1194436018}
   - component: {fileID: 1194436020}
   - component: {fileID: 1194436019}
+  - component: {fileID: 1194436021}
   m_Layer: 0
   m_Name: Triangle (54)
   m_TagString: Untagged
@@ -5750,7 +6245,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1194436017}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 134.48, y: -5.22, z: 10.012117}
+  m_LocalPosition: {x: 134.48, y: -5.22, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5767,7 +6262,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -5842,6 +6337,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1194436021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1194436017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfba9a7e9b3e1524d9ee1b5359fb02a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1205677885
 GameObject:
   m_ObjectHideFlags: 0
@@ -5853,6 +6360,7 @@ GameObject:
   - component: {fileID: 1205677886}
   - component: {fileID: 1205677888}
   - component: {fileID: 1205677887}
+  - component: {fileID: 1205677889}
   m_Layer: 0
   m_Name: Triangle (65)
   m_TagString: Untagged
@@ -5868,7 +6376,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1205677885}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 147.38, y: -5.22, z: 10.012117}
+  m_LocalPosition: {x: 147.38, y: -5.22, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5885,7 +6393,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -5960,6 +6468,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1205677889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1205677885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfba9a7e9b3e1524d9ee1b5359fb02a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1250975762
 GameObject:
   m_ObjectHideFlags: 0
@@ -5984,7 +6504,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1250975762}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.04650697, y: 1.2659547, z: -5.0193048}
+  m_LocalPosition: {x: -0.04650697, y: 1.2659547, z: -5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6014,6 +6534,7 @@ GameObject:
   - component: {fileID: 1257348737}
   - component: {fileID: 1257348739}
   - component: {fileID: 1257348738}
+  - component: {fileID: 1257348740}
   m_Layer: 0
   m_Name: Triangle (11)
   m_TagString: Untagged
@@ -6029,7 +6550,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1257348736}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 86.350006, y: -5.22, z: 10.012117}
+  m_LocalPosition: {x: 86.350006, y: -5.22, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6046,7 +6567,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -6121,6 +6642,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1257348740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1257348736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfba9a7e9b3e1524d9ee1b5359fb02a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1260462652
 GameObject:
   m_ObjectHideFlags: 0
@@ -6256,6 +6789,7 @@ GameObject:
   - component: {fileID: 1287930507}
   - component: {fileID: 1287930509}
   - component: {fileID: 1287930508}
+  - component: {fileID: 1287930510}
   m_Layer: 0
   m_Name: Triangle (27)
   m_TagString: Untagged
@@ -6271,7 +6805,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1287930506}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 105.07001, y: -5.22, z: 10.012117}
+  m_LocalPosition: {x: 105.07001, y: -5.22, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6288,7 +6822,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -6363,6 +6897,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1287930510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1287930506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfba9a7e9b3e1524d9ee1b5359fb02a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1295321852
 GameObject:
   m_ObjectHideFlags: 0
@@ -6596,6 +7142,7 @@ GameObject:
   - component: {fileID: 1301567112}
   - component: {fileID: 1301567114}
   - component: {fileID: 1301567113}
+  - component: {fileID: 1301567115}
   m_Layer: 0
   m_Name: Triangle (63)
   m_TagString: Untagged
@@ -6611,7 +7158,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1301567111}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 144.99, y: -5.22, z: 10.012117}
+  m_LocalPosition: {x: 144.99, y: -5.22, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6628,7 +7175,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -6703,6 +7250,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1301567115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1301567111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfba9a7e9b3e1524d9ee1b5359fb02a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1322311895
 GameObject:
   m_ObjectHideFlags: 0
@@ -6825,6 +7384,7 @@ GameObject:
   - component: {fileID: 1323867136}
   - component: {fileID: 1323867138}
   - component: {fileID: 1323867137}
+  - component: {fileID: 1323867139}
   m_Layer: 0
   m_Name: Triangle (26)
   m_TagString: Untagged
@@ -6840,7 +7400,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1323867135}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 103.880005, y: -5.22, z: 10.012117}
+  m_LocalPosition: {x: 103.880005, y: -5.22, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6857,7 +7417,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -6932,6 +7492,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1323867139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1323867135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfba9a7e9b3e1524d9ee1b5359fb02a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1395697304
 GameObject:
   m_ObjectHideFlags: 0
@@ -6943,6 +7515,7 @@ GameObject:
   - component: {fileID: 1395697305}
   - component: {fileID: 1395697307}
   - component: {fileID: 1395697306}
+  - component: {fileID: 1395697308}
   m_Layer: 0
   m_Name: Triangle (39)
   m_TagString: Untagged
@@ -6958,7 +7531,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1395697304}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 119.21999, y: -5.22, z: 10.012117}
+  m_LocalPosition: {x: 119.21999, y: -5.22, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6975,7 +7548,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -7050,6 +7623,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1395697308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1395697304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfba9a7e9b3e1524d9ee1b5359fb02a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1465321196
 GameObject:
   m_ObjectHideFlags: 0
@@ -7061,6 +7646,7 @@ GameObject:
   - component: {fileID: 1465321197}
   - component: {fileID: 1465321199}
   - component: {fileID: 1465321198}
+  - component: {fileID: 1465321200}
   m_Layer: 0
   m_Name: Triangle (35)
   m_TagString: Untagged
@@ -7076,7 +7662,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1465321196}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 114.49, y: -5.22, z: 10.012117}
+  m_LocalPosition: {x: 114.49, y: -5.22, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7093,7 +7679,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -7168,6 +7754,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1465321200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1465321196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfba9a7e9b3e1524d9ee1b5359fb02a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1489489053
 GameObject:
   m_ObjectHideFlags: 0
@@ -7179,6 +7777,7 @@ GameObject:
   - component: {fileID: 1489489054}
   - component: {fileID: 1489489056}
   - component: {fileID: 1489489055}
+  - component: {fileID: 1489489057}
   m_Layer: 0
   m_Name: Triangle (4)
   m_TagString: Untagged
@@ -7194,7 +7793,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1489489053}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 22.929993, y: -5.22, z: 10.012117}
+  m_LocalPosition: {x: 22.929993, y: -5.22, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7211,7 +7810,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -7286,6 +7885,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1489489057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1489489053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfba9a7e9b3e1524d9ee1b5359fb02a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1499494838
 GameObject:
   m_ObjectHideFlags: 0
@@ -7447,6 +8058,7 @@ GameObject:
   - component: {fileID: 1541046019}
   - component: {fileID: 1541046021}
   - component: {fileID: 1541046020}
+  - component: {fileID: 1541046022}
   m_Layer: 0
   m_Name: Triangle (15)
   m_TagString: Untagged
@@ -7462,7 +8074,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1541046018}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 91.08, y: -5.22, z: 10.012117}
+  m_LocalPosition: {x: 91.08, y: -5.22, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7479,7 +8091,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -7554,6 +8166,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1541046022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1541046018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfba9a7e9b3e1524d9ee1b5359fb02a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1541455969
 GameObject:
   m_ObjectHideFlags: 0
@@ -7565,6 +8189,7 @@ GameObject:
   - component: {fileID: 1541455970}
   - component: {fileID: 1541455972}
   - component: {fileID: 1541455971}
+  - component: {fileID: 1541455973}
   m_Layer: 0
   m_Name: Triangle (29)
   m_TagString: Untagged
@@ -7580,7 +8205,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1541455969}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 107.41, y: -5.22, z: 10.012117}
+  m_LocalPosition: {x: 107.41, y: -5.22, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7597,7 +8222,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -7672,6 +8297,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1541455973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1541455969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfba9a7e9b3e1524d9ee1b5359fb02a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1556075752
 GameObject:
   m_ObjectHideFlags: 0
@@ -7683,6 +8320,7 @@ GameObject:
   - component: {fileID: 1556075753}
   - component: {fileID: 1556075755}
   - component: {fileID: 1556075754}
+  - component: {fileID: 1556075756}
   m_Layer: 0
   m_Name: Triangle (24)
   m_TagString: Untagged
@@ -7698,7 +8336,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1556075752}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 101.64999, y: -5.22, z: 10.012117}
+  m_LocalPosition: {x: 101.64999, y: -5.22, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7715,7 +8353,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -7790,6 +8428,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1556075756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1556075752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfba9a7e9b3e1524d9ee1b5359fb02a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1559311054
 GameObject:
   m_ObjectHideFlags: 0
@@ -7801,6 +8451,7 @@ GameObject:
   - component: {fileID: 1559311055}
   - component: {fileID: 1559311057}
   - component: {fileID: 1559311056}
+  - component: {fileID: 1559311058}
   m_Layer: 0
   m_Name: Triangle (18)
   m_TagString: Untagged
@@ -7816,7 +8467,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1559311054}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 94.579994, y: -5.22, z: 10.012117}
+  m_LocalPosition: {x: 94.579994, y: -5.22, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7833,7 +8484,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -7908,6 +8559,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1559311058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1559311054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfba9a7e9b3e1524d9ee1b5359fb02a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1580976184
 GameObject:
   m_ObjectHideFlags: 0
@@ -7919,6 +8582,7 @@ GameObject:
   - component: {fileID: 1580976185}
   - component: {fileID: 1580976187}
   - component: {fileID: 1580976186}
+  - component: {fileID: 1580976188}
   m_Layer: 0
   m_Name: Triangle (48)
   m_TagString: Untagged
@@ -7934,7 +8598,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1580976184}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 129.82999, y: -5.22, z: 10.012117}
+  m_LocalPosition: {x: 129.82999, y: -5.22, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7951,7 +8615,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -8026,6 +8690,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1580976188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1580976184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfba9a7e9b3e1524d9ee1b5359fb02a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1616493828
 GameObject:
   m_ObjectHideFlags: 0
@@ -8081,6 +8757,7 @@ GameObject:
   - component: {fileID: 1629923161}
   - component: {fileID: 1629923163}
   - component: {fileID: 1629923162}
+  - component: {fileID: 1629923164}
   m_Layer: 0
   m_Name: Triangle (42)
   m_TagString: Untagged
@@ -8096,7 +8773,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1629923160}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 122.76, y: -5.22, z: 10.012117}
+  m_LocalPosition: {x: 122.76, y: -5.22, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8113,7 +8790,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -8188,6 +8865,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1629923164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1629923160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfba9a7e9b3e1524d9ee1b5359fb02a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1700213374
 GameObject:
   m_ObjectHideFlags: 0
@@ -8199,6 +8888,7 @@ GameObject:
   - component: {fileID: 1700213375}
   - component: {fileID: 1700213377}
   - component: {fileID: 1700213376}
+  - component: {fileID: 1700213378}
   m_Layer: 0
   m_Name: Triangle (64)
   m_TagString: Untagged
@@ -8214,7 +8904,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1700213374}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 146.19, y: -5.22, z: 10.012117}
+  m_LocalPosition: {x: 146.19, y: -5.22, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8231,7 +8921,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -8306,6 +8996,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1700213378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1700213374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfba9a7e9b3e1524d9ee1b5359fb02a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1743836976
 GameObject:
   m_ObjectHideFlags: 0
@@ -8317,6 +9019,7 @@ GameObject:
   - component: {fileID: 1743836977}
   - component: {fileID: 1743836979}
   - component: {fileID: 1743836978}
+  - component: {fileID: 1743836980}
   m_Layer: 0
   m_Name: Triangle (31)
   m_TagString: Untagged
@@ -8332,7 +9035,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1743836976}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 109.8, y: -5.22, z: 10.012117}
+  m_LocalPosition: {x: 109.8, y: -5.22, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8349,7 +9052,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -8424,6 +9127,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1743836980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1743836976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfba9a7e9b3e1524d9ee1b5359fb02a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1745243381
 GameObject:
   m_ObjectHideFlags: 0
@@ -8435,6 +9150,7 @@ GameObject:
   - component: {fileID: 1745243382}
   - component: {fileID: 1745243384}
   - component: {fileID: 1745243383}
+  - component: {fileID: 1745243385}
   m_Layer: 0
   m_Name: Triangle (44)
   m_TagString: Untagged
@@ -8450,7 +9166,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1745243381}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 125.1, y: -5.22, z: 10.012117}
+  m_LocalPosition: {x: 125.1, y: -5.22, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8467,7 +9183,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -8542,6 +9258,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1745243385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1745243381}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfba9a7e9b3e1524d9ee1b5359fb02a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1749924549
 GameObject:
   m_ObjectHideFlags: 0
@@ -8553,6 +9281,7 @@ GameObject:
   - component: {fileID: 1749924550}
   - component: {fileID: 1749924552}
   - component: {fileID: 1749924551}
+  - component: {fileID: 1749924553}
   m_Layer: 0
   m_Name: Triangle (41)
   m_TagString: Untagged
@@ -8568,7 +9297,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1749924549}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 121.55999, y: -5.22, z: 10.012117}
+  m_LocalPosition: {x: 121.55999, y: -5.22, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8585,7 +9314,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -8660,6 +9389,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1749924553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1749924549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfba9a7e9b3e1524d9ee1b5359fb02a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1752966090
 GameObject:
   m_ObjectHideFlags: 0
@@ -8671,6 +9412,7 @@ GameObject:
   - component: {fileID: 1752966091}
   - component: {fileID: 1752966093}
   - component: {fileID: 1752966092}
+  - component: {fileID: 1752966094}
   m_Layer: 0
   m_Name: Triangle (45)
   m_TagString: Untagged
@@ -8686,7 +9428,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1752966090}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 126.29, y: -5.22, z: 10.012117}
+  m_LocalPosition: {x: 126.29, y: -5.22, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8703,7 +9445,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -8778,6 +9520,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1752966094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1752966090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfba9a7e9b3e1524d9ee1b5359fb02a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1753131189
 GameObject:
   m_ObjectHideFlags: 0
@@ -8789,6 +9543,7 @@ GameObject:
   - component: {fileID: 1753131190}
   - component: {fileID: 1753131192}
   - component: {fileID: 1753131191}
+  - component: {fileID: 1753131193}
   m_Layer: 0
   m_Name: Triangle (13)
   m_TagString: Untagged
@@ -8804,7 +9559,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1753131189}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 88.69, y: -5.22, z: 10.012117}
+  m_LocalPosition: {x: 88.69, y: -5.22, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8821,7 +9576,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -8896,6 +9651,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1753131193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1753131189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfba9a7e9b3e1524d9ee1b5359fb02a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1771192753
 GameObject:
   m_ObjectHideFlags: 0
@@ -8907,6 +9674,7 @@ GameObject:
   - component: {fileID: 1771192754}
   - component: {fileID: 1771192756}
   - component: {fileID: 1771192755}
+  - component: {fileID: 1771192757}
   m_Layer: 0
   m_Name: Triangle (57)
   m_TagString: Untagged
@@ -8922,7 +9690,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1771192753}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 138.06, y: -5.22, z: 10.012117}
+  m_LocalPosition: {x: 138.06, y: -5.22, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8939,7 +9707,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -9014,6 +9782,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1771192757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1771192753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfba9a7e9b3e1524d9ee1b5359fb02a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1793729678
 GameObject:
   m_ObjectHideFlags: 0
@@ -9025,6 +9805,7 @@ GameObject:
   - component: {fileID: 1793729679}
   - component: {fileID: 1793729681}
   - component: {fileID: 1793729680}
+  - component: {fileID: 1793729682}
   m_Layer: 0
   m_Name: Triangle (58)
   m_TagString: Untagged
@@ -9040,7 +9821,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1793729678}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 139.20999, y: -5.22, z: 10.012117}
+  m_LocalPosition: {x: 139.20999, y: -5.22, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9057,7 +9838,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -9132,6 +9913,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1793729682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1793729678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfba9a7e9b3e1524d9ee1b5359fb02a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1844738945
 GameObject:
   m_ObjectHideFlags: 0
@@ -9143,6 +9936,7 @@ GameObject:
   - component: {fileID: 1844738946}
   - component: {fileID: 1844738948}
   - component: {fileID: 1844738947}
+  - component: {fileID: 1844738949}
   m_Layer: 0
   m_Name: Triangle (5)
   m_TagString: Untagged
@@ -9158,7 +9952,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1844738945}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 24.119995, y: -5.22, z: 10.012117}
+  m_LocalPosition: {x: 24.119995, y: -5.22, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9175,7 +9969,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -9250,6 +10044,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1844738949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1844738945}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfba9a7e9b3e1524d9ee1b5359fb02a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1897817619
 GameObject:
   m_ObjectHideFlags: 0
@@ -9261,6 +10067,7 @@ GameObject:
   - component: {fileID: 1897817620}
   - component: {fileID: 1897817622}
   - component: {fileID: 1897817621}
+  - component: {fileID: 1897817623}
   m_Layer: 0
   m_Name: Triangle (30)
   m_TagString: Untagged
@@ -9276,7 +10083,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1897817619}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 108.61, y: -5.22, z: 10.012117}
+  m_LocalPosition: {x: 108.61, y: -5.22, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9293,7 +10100,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -9368,6 +10175,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1897817623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1897817619}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfba9a7e9b3e1524d9ee1b5359fb02a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1947480764
 GameObject:
   m_ObjectHideFlags: 0
@@ -9412,6 +10231,7 @@ GameObject:
   - component: {fileID: 1950694667}
   - component: {fileID: 1950694669}
   - component: {fileID: 1950694668}
+  - component: {fileID: 1950694670}
   m_Layer: 0
   m_Name: Triangle (51)
   m_TagString: Untagged
@@ -9427,7 +10247,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1950694666}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 112.14, y: 3.93, z: 10.012117}
+  m_LocalPosition: {x: 112.14, y: 3.93, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9444,7 +10264,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -9519,6 +10339,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1950694670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1950694666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfba9a7e9b3e1524d9ee1b5359fb02a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1957567834
 GameObject:
   m_ObjectHideFlags: 0
@@ -9530,6 +10362,7 @@ GameObject:
   - component: {fileID: 1957567835}
   - component: {fileID: 1957567837}
   - component: {fileID: 1957567836}
+  - component: {fileID: 1957567838}
   m_Layer: 0
   m_Name: Triangle (1)
   m_TagString: Untagged
@@ -9545,7 +10378,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1957567834}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 16.499992, y: -0.7689996, z: 10.012117}
+  m_LocalPosition: {x: 16.499992, y: -0.7689996, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9562,7 +10395,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -9637,6 +10470,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1957567838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1957567834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfba9a7e9b3e1524d9ee1b5359fb02a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1972424509
 GameObject:
   m_ObjectHideFlags: 0
@@ -9679,6 +10524,7 @@ GameObject:
   - component: {fileID: 1987865852}
   - component: {fileID: 1987865854}
   - component: {fileID: 1987865853}
+  - component: {fileID: 1987865855}
   m_Layer: 0
   m_Name: Triangle (56)
   m_TagString: Untagged
@@ -9694,7 +10540,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1987865851}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 136.87, y: -5.22, z: 10.012117}
+  m_LocalPosition: {x: 136.87, y: -5.22, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9711,7 +10557,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -9786,6 +10632,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1987865855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1987865851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfba9a7e9b3e1524d9ee1b5359fb02a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2067569065
 GameObject:
   m_ObjectHideFlags: 0
@@ -9797,6 +10655,7 @@ GameObject:
   - component: {fileID: 2067569066}
   - component: {fileID: 2067569068}
   - component: {fileID: 2067569067}
+  - component: {fileID: 2067569069}
   m_Layer: 0
   m_Name: Triangle (60)
   m_TagString: Untagged
@@ -9812,7 +10671,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2067569065}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 141.46, y: -5.22, z: 10.012117}
+  m_LocalPosition: {x: 141.46, y: -5.22, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9829,7 +10688,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -9904,6 +10763,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2067569069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2067569065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfba9a7e9b3e1524d9ee1b5359fb02a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2084839651
 GameObject:
   m_ObjectHideFlags: 0
@@ -9915,6 +10786,7 @@ GameObject:
   - component: {fileID: 2084839652}
   - component: {fileID: 2084839654}
   - component: {fileID: 2084839653}
+  - component: {fileID: 2084839655}
   m_Layer: 0
   m_Name: Triangle (55)
   m_TagString: Untagged
@@ -9930,7 +10802,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2084839651}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 135.67, y: -5.22, z: 10.012117}
+  m_LocalPosition: {x: 135.67, y: -5.22, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9947,7 +10819,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -10022,6 +10894,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2084839655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084839651}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfba9a7e9b3e1524d9ee1b5359fb02a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2113508088
 GameObject:
   m_ObjectHideFlags: 0
